@@ -1,0 +1,42 @@
+{
+    "version": "1.3.14",
+    "description": "Installs the FFmpeg library in Audacity, which allows Audacity to import a much larger range of audio formats and import audio from most video files.",
+    "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.3.14/libimobiledevice.1.2.1-r1116-win-x64.zip",
+    "bin": [
+        "ideviceactivation.exe",
+        "idevicebackup.exe",
+        "idevicebackup2.exe",
+        "idevicecrashreport.exe",
+        "idevicedate.exe",
+        "idevicedebug.exe",
+        "idevicedebugserverproxy.exe",
+        "idevicediagnostics.exe",
+        "ideviceenterrecovery.exe",
+        "ideviceimagemounter.exe",
+        "ideviceinfo.exe",
+        "ideviceinstaller.exe",
+        "idevicename.exe",
+        "idevicenotificationproxy.exe",
+        "idevicepair.exe",
+        "ideviceprovision.exe",
+        "idevicerestore.exe",
+        "idevicescreenshot.exe",
+        "idevicesyslog.exe",
+        "idevice_id.exe",
+        "ios_webkit_debug_proxy.exe",
+        "iproxy.exe",
+        "irecovery.exe",
+        "plistutil.exe",
+        "plist_cmp.exe",
+        "plist_test.exe",
+        "usbmuxd.exe"
+    ],
+    "homepage": "https://github.com/libimobiledevice-win32/imobiledevice-net",
+    "checkver": {
+        "github": "https://github.com/libimobiledevice-win32/imobiledevice-net",
+        "regex": "v(?<version>[\\d\\w.]+)/libimobiledevice\\.(?<rev>[\\d\\w.-]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v$version/libimobiledevice.$matchRev.zip"
+    }
+}
