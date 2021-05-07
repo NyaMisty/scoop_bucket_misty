@@ -1,0 +1,39 @@
+{
+    "homepage": "https://ghidra-sre.org/",
+    "description": "Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate.",
+    "version": "10.0-DEV-20210507",
+    "license": "Apache-2.0",
+    "hash": "dd07f75b0756e2376d36a064f37085f6cf4f0f5d7f4594d80459f83e56f9fc44",
+    "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2021-05-07/ghidra_10.0_DEV_20210507_win64.zip",
+    "extract_dir": "ghidra_10.0_DEV",
+    "bin": [
+        [
+            "ghidraRun.bat",
+            "ghidra-nightly"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ghidraRun.bat",
+            "Ghidra Nightly",
+            "",
+            "support/ghidra.ico"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "persist": "Ghidra\\Extensions",
+    "checkver": {
+        "github": "https://github.com/NyaMisty/ghidra-builder",
+        "regex": "/download/(?<release>.*?)/ghidra_(?<ver>[\\d.]+)_(?<branch>.*?)_(?<date>\\d+)_win64\\.zip",
+        "replace": "${2}-${3}-${4}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/$matchRelease/ghidra_$matchVer_$matchBranch_$matchDate_win64.zip",
+        "extract_dir": "ghidra_$matchVer_$matchBranch"
+    }
+}
