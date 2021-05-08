@@ -9,13 +9,13 @@
     "bin": [
         [
             "ghidraRun.bat",
-            "ghidra-canary"
+            "ghidra-beta"
         ]
     ],
     "shortcuts": [
         [
             "ghidraRun.bat",
-            "Ghidra Canary",
+            "Ghidra Beta",
             "",
             "support/ghidra.ico"
         ]
