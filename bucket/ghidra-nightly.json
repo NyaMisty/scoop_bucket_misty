@@ -1,10 +1,10 @@
 {
     "homepage": "https://ghidra-sre.org/",
     "description": "Ghidra (dev branch)",
-    "version": "dev-10.1-DEV-20210718",
+    "version": "dev-10.1-DEV-20210719",
     "license": "Apache-2.0",
-    "hash": "df847ff60ebb126c4451b38b5e6e805b80dc47cc82e85cb3e5e92d279e31a336",
-    "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2021-07-18/Ghidra_dev_windows-latest_ghidra_10.1_DEV_20210718_win64.zip",
+    "hash": "077072372cb10127f82e08755216b25e54b74a8a915a8ea0a0a52f43ccdc2e06",
+    "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2021-07-19/Ghidra_dev_windows-latest_ghidra_10.1_DEV_20210719_win64.zip",
     "extract_dir": "ghidra_10.1_DEV",
     "bin": [
         [
