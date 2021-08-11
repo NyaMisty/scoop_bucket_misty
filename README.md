@@ -8,3 +8,5 @@
   - libimobiledevice: `scoop install libimobiledevice`
     - Now available in [TheCjw's repo](https://github.com/TheCjw/scoop-retools)
   - Ghidra nightly build: `scoop install ghidra-nightly`
+  - Wireshark nightly build: `scoop install wireshark-nightly`
+  - Metasploit Framework: `scoop install metasploit-framework`
