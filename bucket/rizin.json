@@ -1,0 +1,69 @@
+{
+    "homepage": "https://rizin.re/",
+    "description": "rizin: Free and Open Source Reverse Engineering Framework",
+    "version": "git.4005",
+    "license": "BSD-3-clause",
+    "hash": "707b2eee363eef266072672b9a181656ef36f51afb01db14dae19d5c9eb0410c",
+    "url": "https://bit.ly/3Dv4LcY#/dl.exe",
+    "innosetup": true,
+    "bin": [
+        [
+            "bin\\rizin.exe",
+            "rizin"
+        ],
+        [
+            "bin\\rz-agent.exe",
+            "rz-agent"
+        ],
+        [
+            "bin\\rz-asm.exe",
+            "rz-asm"
+        ],
+        [
+            "bin\\rz-ax.exe",
+            "rz-ax"
+        ],
+        [
+            "bin\\rz-bin.exe",
+            "rz-bin"
+        ],
+        [
+            "bin\\rz-diff.exe",
+            "rz-diff"
+        ],
+        [
+            "bin\\rz-find.exe",
+            "rz-find"
+        ],
+        [
+            "bin\\rz-gg.exe",
+            "rz-gg"
+        ],
+        [
+            "bin\\rz-hash.exe",
+            "rz-hash"
+        ],
+        [
+            "bin\\rz-run.exe",
+            "rz-run"
+        ],
+        [
+            "bin\\rz-sign.exe",
+            "rz-sign"
+        ],
+        [
+            "bin\\rz-test.exe",
+            "rz-test"
+        ]
+    ],
+    "shortcuts": [],
+    "suggest": {},
+    "persist": [],
+    "checkver": {
+        "url": "https://ci.appveyor.com/api/projects/rizinorg/rizin/branch/dev",
+        "jsonpath": "$.build.version"
+    },
+    "autoupdate": {
+        "url": "https://bit.ly/3Dv4LcY"
+    }
+}
