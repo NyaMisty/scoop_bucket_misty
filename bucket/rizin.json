@@ -1,9 +1,9 @@
 {
     "homepage": "https://rizin.re/",
     "description": "rizin: Free and Open Source Reverse Engineering Framework",
-    "version": "git.4602",
+    "version": "git.4604",
     "license": "BSD-3-clause",
-    "hash": "086df29818a24869dd45418330844d88e7ba52fd8e2147ad60ee1178d9919394",
+    "hash": "6d2fed84f6af6ddc1d8f0ffd34b7f18c150ca0add680f978821a05c77ca55788",
     "url": "https://bit.ly/3Dv4LcY",
     "innosetup": true,
     "bin": [
