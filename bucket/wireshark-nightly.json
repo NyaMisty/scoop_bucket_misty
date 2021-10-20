@@ -1,5 +1,5 @@
 {
-    "version": "3.7.0rc0-126-g763247c2b39c",
+    "version": "3.7.0rc0-129-g01b0d9e077e1",
     "description": "A network protocol analyzer that lets you see what’s happening on your network at a microscopic level.",
     "homepage": "https://www.wireshark.org/",
     "license": "GPL-2.0-or-later",
@@ -11,8 +11,8 @@
     "suggest": {
         "Nmap (includes Npcap)": "nmap"
     },
-    "url": "https://www.wireshark.org/download/automated/win64/WiresharkPortable64_3.7.0rc0-126-g763247c2b39c.paf.exe#/dl.7z",
-    "hash": "25d17f45808bf49b225f3727f31f5a5ac19fb610a5fc3c797ce84f71e6265dd2",
+    "url": "https://www.wireshark.org/download/automated/win64/WiresharkPortable64_3.7.0rc0-129-g01b0d9e077e1.paf.exe#/dl.7z",
+    "hash": "21ac7ba5d65cc641c8fac7c3c819e415d9e5772ff32ee017f2931e98bde123ca",
     "bin": [
         "App\\Wireshark\\capinfos.exe",
         "App\\Wireshark\\captype.exe",
