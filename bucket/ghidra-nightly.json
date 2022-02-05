@@ -29,11 +29,11 @@
     "persist": "Ghidra\\Extensions",
     "checkver": {
         "github": "https://github.com/NyaMisty/ghidra-builder",
-        "regex": "/download/(?<release>.*?)/Ghidra_(?<branch>dev)_(?<os>.*)_ghidra_(?<ver>[\\d.]+)_(?<reltype>.*?)_(?<date>\\d+)_win64\\.zip",
+        "regex": "/download/(?<release>.*?)/Ghidra_(?<branch>dev)_(?<os>.*)_ghidra_(?<ver>[\\d.]+)_(?<reltype>.*?)_(?<date>\\d+)_(?<arch>win.*64.*)\\.zip",
         "replace": "${branch}-${ver}-${reltype}-${date}"
     },
     "autoupdate": {
-        "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/$matchRelease/Ghidra_$matchBranch_$matchOs_ghidra_$matchVer_$matchReltype_$matchDate_win64.zip",
+        "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/$matchRelease/Ghidra_$matchBranch_$matchOs_ghidra_$matchVer_$matchReltype_$matchDate_$matchArch.zip",
         "extract_dir": "ghidra_$matchVer_$matchReltype"
     }
 }
