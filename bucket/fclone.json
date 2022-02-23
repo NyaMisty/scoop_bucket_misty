@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/NyaMisty/fclone",
     "description": "fclone: Modified rclone with Enhancement for Google Drive",
-    "version": "v1.58.0-beta.6177.f7da6a9d6-windows-amd64",
+    "version": "v1.58.0-beta.6179.608e7aa05-windows-amd64",
     "license": "MIT",
-    "hash": "600b1174117325c67793e5ddfed28fcd85c7b00011445a1b553fbda781da2c19",
-    "url": "https://github.com/NyaMisty/fclone/releases/download/action_build/rclone-v1.58.0-beta.6177.f7da6a9d6-windows-amd64.zip",
-    "extract_dir": "rclone-v1.58.0-beta.6177.f7da6a9d6-windows-amd64",
+    "hash": "b9483e98f765de623ccaa206beebf9fc04ba6f21926eec52661ffafd57ed07be",
+    "url": "https://github.com/NyaMisty/fclone/releases/download/action_build/rclone-v1.58.0-beta.6179.608e7aa05-windows-amd64.zip",
+    "extract_dir": "rclone-v1.58.0-beta.6179.608e7aa05-windows-amd64",
     "bin": [
         [
             "rclone.exe",
