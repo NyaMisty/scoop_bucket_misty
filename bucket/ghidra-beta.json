@@ -1,10 +1,10 @@
 {
     "homepage": "https://ghidra-sre.org/",
     "description": "Ghidra (stable branch)",
-    "version": "stable-10.1.2-DEV-20220226",
+    "version": "stable-10.1.2-DEV-20220227",
     "license": "Apache-2.0",
-    "hash": "2e98e88f440286dd347df54c133b3579c3ee38a7477ab143902bb0ac284b88ce",
-    "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2022-02-26/Ghidra_stable_windows-latest_ghidra_10.1.2_DEV_20220226_win_x86_64.zip",
+    "hash": "8d480d7d303b380a5dcff271bb8b950f22e6f449fd7b66ac90523cc7fa9122e7",
+    "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2022-02-27/Ghidra_stable_windows-latest_ghidra_10.1.2_DEV_20220227_win_x86_64.zip",
     "extract_dir": "ghidra_10.1.2_DEV",
     "bin": [
         [
