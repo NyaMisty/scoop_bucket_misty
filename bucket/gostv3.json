@@ -1,14 +1,14 @@
 {
-    "version": "v3.0.0-beta.1",
+    "version": "v3.0.0-beta.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-beta.1/gost-windows-amd64-3.0.0-beta.1.zip",
-            "hash": "b321f5172b9e394dbab684a0697ddbaf12c7bbeebdbab2ceaef111830d6746b0",
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-beta.2/gost-windows-amd64-3.0.0-beta.2.zip",
+            "hash": "12a543c7efc09eca8049aa347354ab9bc2559f625e2dda405957cbe598e590aa",
             "pre_install": "Rename-Item \"$dir/gost-windows-amd64.exe\" \"$dir/gostv3.exe\""
         },
         "32bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-beta.1/gost-windows-386-3.0.0-beta.1.zip",
-            "hash": "54c228de5c3e89004d59f2a48330018af6ffe21ca948eb0aa6babe58bc196a3a",
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-beta.2/gost-windows-386-3.0.0-beta.2.zip",
+            "hash": "cdc982deb52cc677d2647aa47517918ac1d1afc1a136571e26d7d5f9633ea730",
             "pre_install": "Rename-Item \"$dir/gost-windows-386.exe\" \"$dir/gostv3.exe\""
         }
     },
