@@ -1,0 +1,43 @@
+{
+    "version": "2022-04-26-run112-id2228774021",
+    "description": "Revival of the well known .NET debugger and assembly editor, dnSpy",
+    "homepage": "https://github.com/dnSpyEx/dnSpy",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z",
+            "hash": "069890695f6fab004286dc8dbb4c97fd38f1ec2f907091f2802b7161a4fa7d9d"
+        },
+        "32bit": {
+            "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z",
+            "hash": "6f0cb5bdaacbb3bf8672643db66db8a37a46399569e313212e6e2f54c7c61a70"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\dnSpy-net-win*.zip\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\dnSpy-net-win*.zip\" -Force",
+    "bin": [
+        ["dnSpy.Console.exe", "dnSpyEx.Console-nightly"],
+        ["dnSpy.exe", "dnSpyEx-nightly"]
+    ],
+    "shortcuts": [
+        [
+            "dnSpy.exe",
+            "dnSpyEx Nightly"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml?query=branch%3Amaster+is%3Asuccess",
+        "regex": "<a class=\"Link--primary css-truncate css-truncate-target\" .*? aria-label=\"Run (?<runCount>[\\d]+) of.* href=\".*/runs/(?<runId>[\\d]+)\">[\\S\\s]+?<time-ago datetime=\"(?<buildDate>[\\d-]+?)T",
+        "replace": "${buildDate}-run${runCount}-id${runId}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z"
+            }
+        }
+    }
+}
