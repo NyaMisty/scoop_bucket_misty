@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/rapid7/metasploit-framework",
     "description": "Metasploit Framework",
-    "version": "6.2.7+20220708153240",
+    "version": "6.2.7+20220709153114",
     "license": "BSD-3-clause",
-    "hash": "bfd79dd563055b20c7a80a153d3a50cf9eb8fe19fac1339efb332eb0c95aafa8",
-    "url": "https://windows.metasploit.com/metasploit-framework-6.2.7+20220708153240-1rapid7-1-x64.msi",
+    "hash": "85f058e98163e73e04c4393996c361d63265b749cb6213d08ce9bce7ac98e89f",
+    "url": "https://windows.metasploit.com/metasploit-framework-6.2.7+20220709153114-1rapid7-1-x64.msi",
     "bin": [
         [
             "bin\\msfconsole.bat",
