@@ -1,16 +1,16 @@
 {
-    "version": "2022-07-18-run150-id2692202231",
+    "version": "2022-07-19-run157-id2696892887",
     "description": "Revival of the well known .NET debugger and assembly editor, dnSpy",
     "homepage": "https://github.com/dnSpyEx/dnSpy",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z",
-            "hash": "fcf40d8d6c602978740ff1253a67f9dd5bb93db988cfca7086af83983e7fabf7"
+            "hash": "7d9b6b93bb9325c76476233739d981dedea0c55d4671c2d4e0a32ae6dd02ebce"
         },
         "32bit": {
             "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z",
-            "hash": "21c9698a5b91a5a1b340a072e21c68be44b253e8daca5d804bd17a8f5e856987"
+            "hash": "8c9ddfcd143acf6625a177422a63619b02a6b4c8332a75422fb92cee3bb1cb67"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\dnSpy-net-win*.zip\" \"$dir\"",
