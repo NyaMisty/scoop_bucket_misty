@@ -30,17 +30,17 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml?query=branch%3Amaster+is%3Asuccess",
-        "regex": "<a class=\"Link--primary css-truncate css-truncate-target\" .*? aria-label=\"Run (?<runCount>[\\d]+) of.*? href=\".*?/runs/(?<runId>[\\d]+?)\">[\\S\\s]+? datetime=\"(?<buildDate>\\d{4}-\\d{2}-\\d{2})T",
-        "replace": "${buildDate}-run${runCount}-id${runId}"
+        "url": "https://api.github.com/repos/dnSpyEx/dnSpy/actions/runs?status=success&branch=master&per_page=1&exclude_pull_requests=true",
+        "regex": '{"id":(?<runid>\\d+),.*?"run_number":(?<runnumber>\\d+).*?"created_at":"(?<date>\\d+-\\d+-\\d+)T',
+        "replace": "${date}-run${runnumber}-id${runid}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z"
+                "url": "https://nightly.link/dnSpyEx/dnSpy/actions/runs/$matchRunid/dnSpy-net-win64.zip#/dl.7z"
             },
             "32bit": {
-                "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z"
+                "url": "https://nightly.link/dnSpyEx/dnSpy/actions/runs/$matchRunid/dnSpy-net-win32.zip#/dl.7z"
             }
         }
     }
