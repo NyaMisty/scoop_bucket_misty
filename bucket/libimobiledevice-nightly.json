@@ -1,17 +1,17 @@
 {
     "homepage": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg",
     "description": "A cross-platform protocol library to communicate with iOS devices, http://www.libimobiledevice.org.",
-    "version": "20260121_122110-e2ebbf0d",
+    "version": "20260121_201740-84c9acc2",
     "license": "LGPL 2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20260121_122110-e2ebbf0d/x86_64-mingw64.tar",
-            "hash": "7644ae78bb5fed50747471f7a5f16a13ad3aebb8f1776563669498cbc157a258",
+            "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20260121_201740-84c9acc2/x86_64-mingw64.tar",
+            "hash": "eea6a451bcecb2436886bc586ee5995138150a87bdfedb94a30d9225ec21cdf1",
             "extract_dir": "mingw64"
         },
         "32bit": {
-            "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20260121_122110-e2ebbf0d/i686-mingw32.tar",
-            "hash": "b434b34b32a157e6fd6ef80ec9251244a3ade4423300353c9dca88350ee943c2",
+            "url": "https://github.com/NyaMisty/libimobiledevice-nightly-pkg/releases/download/20260121_201740-84c9acc2/i686-mingw32.tar",
+            "hash": "630f4392b37ec706ef73244f11c45f025cc707d7c7dfe9e9646c7b52aabbdd95",
             "extract_dir": "mingw32"
         }
     },
