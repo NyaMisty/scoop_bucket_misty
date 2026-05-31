@@ -1,15 +1,15 @@
 {
     "homepage": "https://ghidra-sre.org/",
-    "description": "GhidraMod - NyaMisty",
-    "version": "10.4-20230807-052403d3c",
+    "description": "GhidraMod Nightly - NyaMisty",
+    "version": "12.1-20260527-82c09345e1",
     "license": "Apache-2.0",
-    "hash": "c9c28490d02934f685d39ef1e334901ec2a56d82235afde67ec794a6656c1220",
-    "url": "https://github.com/NyaMisty/ghidra_mod-ci/releases/download/2023-08-07-NyaMisty_ghidra_mod-052403d3c/ghidra_10.4_DEV_20230807.zip",
-    "extract_dir": "ghidra_10.4_DEV",
+    "hash": "9d0a5517064931dbaaf0b752652f116bfd130e060017fb2e64811467d73ccbb9",
+    "url": "https://github.com/NyaMisty/ghidra_mod-ci/releases/download/2026-05-27-82c09345e1/ghidra_12.1_DEV_20260527.zip",
+    "extract_dir": "ghidra_12.1_DEV",
     "bin": [
         [
             "ghidraRun.bat",
-            "ghidramod"
+            "ghidramod-nightly"
         ]
     ],
     "shortcuts": [
@@ -28,13 +28,13 @@
     },
     "persist": "Ghidra\\Extensions",
     "checkver": {
-        "url": "https://api.github.com/repos/NyaMisty/ghidra_mod-ci/releases?per_page=1",
+        "url": "https://api.github.com/repos/NyaMisty/ghidra_mod-ci/releases?per_page=100",
         "github_": "https://github.com/NyaMisty/ghidra_mod-ci",
-        "regex": "/download/(?<release>[0-9\\-]+?)-NyaMisty_ghidra_mod-(?<commit>[0-9a-f]+?)/ghidra_(?<ver>[\\d.]+)_DEV_(?<date>\\d+)\\.zip",
+        "regex": "/download/(?<release>[0-9\\-]+?)-(?<commit>[0-9a-f]+?)/ghidra_(?<ver>[\\d.]+)_DEV_(?<date>\\d+)\\.zip",
         "replace": "${ver}-${date}-${commit}"
     },
     "autoupdate": {
-        "url": "https://github.com/NyaMisty/ghidra_mod-ci/releases/download/$matchRelease-NyaMisty_ghidra_mod-$matchCommit/ghidra_$matchVer_DEV_$matchDate.zip",
+        "url": "https://github.com/NyaMisty/ghidra_mod-ci/releases/download/$matchRelease-$matchCommit/ghidra_$matchVer_DEV_$matchDate.zip",
         "extract_dir": "ghidra_$matchVer_DEV"
     }
 }
