@@ -1,9 +1,9 @@
 {
-    "version": ".1.20.0.0",
+    "version": "1.21.0.1",
     "description": "DebugView++, collects, views, filters your application logs, and highlights information that is important to you!",
     "homepage": "https://github.com/CobaltFusion/DebugViewPP",
-    "url": "https://github.com/CobaltFusion/DebugViewPP/releases/download/v.1.20.0.0/Debugviewpp.exe",
-    "hash": "a24787f2799fe412140f3f6e76a5a8b62e659785a19a563b937323d149dae143",
+    "url": "https://github.com/CobaltFusion/DebugViewPP/releases/download/v1.21.0.1/Debugviewpp.exe",
+    "hash": "8c03465db7d264087061f78b99d604ffc6cfadc8c6b59982b00b530504443546",
     "shortcuts": [
         [
             "Debugviewpp.exe",
